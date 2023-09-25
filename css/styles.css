@@ -1,0 +1,183 @@
+.navigation_bar {
+    background-color: #fff;
+}
+
+.logo {
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    padding-top: 7%;
+}
+
+.logo-adv {
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+.logo-images {
+    padding-left: 15%;
+}
+
+#logo-google {
+    width: 400px;
+    height: auto;
+}
+
+.heading {
+    height: 70px;
+    display: flex;
+    color: rgb(218, 3, 3);
+    text-align: left;
+    padding-left: 2.7%;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.user-query{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    position: relative;*/
+}
+
+#info-font {
+    font-size: smaller;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#infoleft {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#inforight {
+    font-size: larger;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+#search-bar {
+    border-radius: 20px;
+    border: 2px solid #e9ecf0;
+    max-width: 584px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+.search-button {
+    padding-left: 25%;
+}
+
+.search-button-img {
+    padding-left: 38%;
+}
+
+.button {
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #f4f4f5;;
+    white-space: pre-wrap;
+    /*background: none;*/
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+.button-adv-c {
+    border-radius: 5px;
+    border: 1px solid #3079ed;
+    box-shadow: none;
+    color: #fff;
+    background-color: #4d90fe;
+    white-space: pre-wrap;
+    font-weight: bold;
+    width: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.adv-form, .adv-form-input {
+    clear: both;
+    padding-left: 3%;
+    padding-bottom: 10px;
+}
+
+div.adv-form-lbl {
+    display: inline-block;
+    min-width: 167px;
+    width: 10%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+div.adv-form-txt {
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 35%;
+}
+
+div.adv-form-info {
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 35%;
+    font-size: smaller;
+    padding-left: 7px;
+    opacity: 0.7;
+}
+
+.text-adv{
+    width: 100%;
+    outline: none;
+}
+
+div.search-button-adv {
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 35%;
+    text-align: right;
+    padding-top: 8px;
+}
+
+/*PSEUDO-CLASSES*/
+
+#button-adv:hover{
+    background-color: #3b85fc;
+}
+
+.button:hover{
+    border-color: rgb(209, 207, 207);
+}
+
+#search-bar:hover,:focus {
+    border-color: #dfe1e5;
+    box-shadow: 1px 1px 2px 2px rgb(236, 236, 236);
+}
+
+.text-adv:focus {
+    border-color: #4d90fe;
+}
+
+
