@@ -1,2 +1,2 @@
 # Google
-Development of a project that simulates the Google interface and its advanced functions
+Development of a project simulating Google's interface and its advanced functions page.
